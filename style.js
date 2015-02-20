@@ -20,3 +20,9 @@ window.onload=function(){
 GetClock();
 setInterval(GetClock,1000);
 }
+
+function GetClock(){
+	var str="clockbox";
+	var result=str.fontcolor("green")
+	if(nmin<=)
+}
