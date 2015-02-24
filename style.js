@@ -28,9 +28,11 @@ setInterval(function() {
     }, 1000);   
 });
 
+
 var clock = setInterval(function(){ setColor() 
 function setColor() {
   var x = new Color;
   x.style.backgroundColor = x.style.backgroundColor == "yellow" ? "pink" : "yellow";
 }}, 100);
  
+
