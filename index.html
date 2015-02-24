@@ -3,21 +3,26 @@
 	<head>
 		<title>Clock</title>
 		<link rel="Stylesheet" href ="style.css"> 
-		<script src="style.js"></script>	
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+		<script src="style.js"></script>
+	
 	</head>
 	
 	<body>
 	<div class="container">
-		<div class="clockbox"></div>
+		<div class="clock"><span class="clock">
+		<div id="Date"></div>
+			<ul>
+				<li id="hours"></li>
+				<li id="point">:</li>
+				<li id="min"></li>
+				<li id="point">:</li>
+				<li id="sec"></li>
+				<li id="point">:</li>
+				<li id="milli"></li>
+			</ul>
+		</div>
 		<br></br>
-		<div class="account">Account Page:</div>
-		<div calss="legend"></div>
-				<div class="username"><p>Username:<input type="text" name="Name" value="Name"><br></p>	</div>
-				<div class="password"><p>
-			Password:<imput type="text" name="Password" value="Password"></p>	</div>
-			</br>
-		<div class="button"><a class="button" href="https://www.google.com/?gws_rd=ssl">Submit</a></div>
-	</div>
-
+	</div></span>		
 	</body>
 </html>
